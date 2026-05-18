@@ -24,7 +24,7 @@ Last updated: 2026-05-18
 
 ### 재슐랭가이드
 
-See detailed ranking file: `jaesullang-3mo-top10-2026-05-18.md`.
+See public sample ranking file: `examples/jaesullang-guide-3mo-price-tier-sample.en.md`.
 
 Top candidates for current queue:
 
@@ -43,7 +43,6 @@ Recent videos mix restaurant visits, product reviews, overseas travel, and food 
 |---|---|---|---|---|
 | 라멘바 시코우 | Korea / likely 수도권 | "현시점 우리나라 1등이라는 라멘 식당"으로 방문. 주방 촬영까지 한 식당 집중형 콘텐츠. | https://www.youtube.com/watch?v=qu7GTk6hhNA | 후보 등록 |
 | 포폴로 피자 | 일산 | 나폴리 피자 세계대회 챔피언, 오픈 직후 대기 200팀 언급. 사용자가 잡식맨의 국내 1위 피자집 추천을 매우 신뢰했고 실제로 쓸모 있었다고 평가했으므로 피자 카테고리에서는 우선순위 상향. | https://www.youtube.com/watch?v=KOjR0UmPxK0 | 후보 등록 / 피자 P1 |
-| 거대곰탕 | 부산 | "전국에서 가장 농후하고 찐한 곰탕"으로 방문. 부산권이면 우선순위 높음. | https://www.youtube.com/watch?v=IsJMPbbAGhE | 지역 후보 |
 | 이재모 피자 | 부산 | 임실치즈 변경 전 마지막 방문 맥락. 현재 메뉴/치즈 변화 때문에 운영 재확인 필요. | https://www.youtube.com/watch?v=HllH1-iIMVo | 보류/재확인 |
 | 대전 빵집 7곳 | 대전 | 성심당 외 대전 빵집 순회. 식당보다 베이커리 큐로 분리. | https://www.youtube.com/watch?v=DwwnSXvrF8M | 보조 큐 |
 

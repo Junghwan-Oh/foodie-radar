@@ -1,6 +1,6 @@
-# foodie-radar
+# k-foodie-radar
 
-`foodie-radar` is a Markdown-based restaurant radar for maintaining high-quality restaurant lists and suggesting visit candidates based on your personal taste.
+`k-foodie-radar` is a Markdown-based K-foodie radar for maintaining high-quality restaurant lists and suggesting visit candidates based on your personal taste.
 
 It goes beyond generic “find me a restaurant nearby” search. It tracks trusted food creators, official guides, recommendation signals, sponsorship risk, menu-level reasons, and your evolving taste profile.
 
@@ -10,9 +10,9 @@ Restaurant discovery is noisy.
 
 Map ratings, blog posts, and viral reviews often mix real information with ads and marketing. Following trusted food YouTubers manually also takes time. You may watch a long video only to find that the restaurant is not your style, or that there are too many candidates to turn into an actual visit list.
 
-Shorts and Reels make this worse. Some creators hide the restaurant name in the description or hashtags while using vague clickbait titles.
+Shorts and Reels make this harder. A video can be genuinely useful, but the restaurant name may not appear in the title. The actual restaurant name, price, address, and menu details may be tucked away in the description or hashtags.
 
-`foodie-radar` treats restaurant discovery as a personal assistant problem:
+`k-foodie-radar` treats restaurant discovery as a personal assistant problem:
 
 - Keep a high-quality restaurant list updated.
 - Separate trusted food creators from expert backup layers.
@@ -54,7 +54,7 @@ Finding good food creators is hard.
 
 Subscriber count alone does not mean a creator matches your taste. Some channels focus on alcohol, convenience stores, franchises, viral hot places, or ad-heavy content. Those may not be useful if your goal is a high-quality personal restaurant list.
 
-`foodie-radar` organizes creators into:
+`k-foodie-radar` organizes creators into:
 
 - First-tier creators to track immediately.
 - Secondary creators for cross-checking.
@@ -101,7 +101,7 @@ Note: Always re-check hours, holidays, reservations, and operating status before
 
 | Rank | Restaurant | Three-Line Recommendation | Menu-Level Reasons | Price | Location | Source/Notes |
 |---:|---|---|---|---|---|---|
-| 1 | Restaurant name | 1) Strong recommendation signal. <br>2) Why it fits the user's taste. <br>3) When or why to visit. | `Menu A`: Why it is the representative order. <br>`Menu B`: What it helps verify. |  |  |  |
+| 1 | Restaurant name | 1) Strong recommendation signal. 2) Why it fits the user's taste. 3) When or why to visit. | `Menu A`: Why it is the representative order. `Menu B`: What it helps verify. |  |  |  |
 ```
 
 Rules:
@@ -155,7 +155,7 @@ Rules:
 - For Shorts, do not rely on the title alone. Check descriptions, hashtags, prices, and locations.
 ```
 
-Instead of returning a plain list of titles, `foodie-radar` organizes the result by:
+Instead of returning a plain list of titles, `k-foodie-radar` organizes the result by:
 
 - Monthly ranking placement, repeat mentions, and strong title signals.
 - Restaurant names, prices, locations, and menus extracted from descriptions and hashtags.
@@ -165,8 +165,8 @@ Instead of returning a plain list of titles, `foodie-radar` organizes the result
 
 Detailed Markdown versions are available here:
 
-- [Jaesullang Guide recent three-month price-tier restaurant list](restaurant-intelligence/jaesullang-3mo-top10-2026-05-18.md)
-- [Jobxicman recent three-month price-tier restaurant list](restaurant-intelligence/jobxicman-3mo-top10-2026-05-18.md)
+- [Jaesullang Guide recent three-month price-tier restaurant list sample](examples/jaesullang-guide-3mo-price-tier-sample.en.md)
+- [Jobxicman recent three-month price-tier restaurant list sample](examples/jobxicman-3mo-price-tier-sample.en.md)
 
 The image below is a sample price-tier table for Jaesullang Guide's recent three-month recommendations.
 
