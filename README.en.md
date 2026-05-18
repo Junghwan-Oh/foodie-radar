@@ -63,7 +63,7 @@ Finding high-quality food creators is hard.
 
 In this project, a high-quality food creator is not just someone with high views. They are closer to food specialists: people who may spend millions to tens of millions of KRW per month on restaurants and who build serious judgment through repeated dining. Following creators whose taste is similar to yours, or whose taste is similar in direction but more advanced/high-end, has proven far more effective than generic search for increasing restaurant success rate and satisfaction.
 
-Subscriber count alone does not mean a creator matches your taste. Some channels focus on alcohol, convenience stores, franchises, viral hot places, or ad-heavy content. Those may not be useful if your goal is a high-quality personal restaurant list. Filtering out advertising, promotion, and marketing-heavy recommendations is especially important, but it is hard to judge from one or two randomly discovered videos.
+Subscriber count alone does not mean a creator matches your taste, and having many videos does not automatically mean a creator fits your current purpose. A channel can make excellent content and still be less relevant to the specific goal of building a high-quality personal restaurant list for actual visits. Filtering out advertising, promotion, and marketing-heavy recommendations is especially important, but it is hard to judge from one or two randomly discovered videos.
 
 That is why creators are managed as a list rather than treated as one-off search results. The system tracks who matches the user's taste, which categories they are strong in, whether sponsorship risk exists, and whether real visits validate their recommendations.
 
@@ -72,7 +72,7 @@ That is why creators are managed as a list rather than treated as one-off search
 - First-tier creators to track immediately.
 - Secondary creators for cross-checking.
 - Hold candidates that need trust or taste validation.
-- Removed creators that do not fit the user's taste or purpose.
+- Held or excluded creators that do not currently fit the user's taste, purpose, or trust requirements.
 - Chef/expert backup channels for fine dining and culinary context.
 
 The creator list is not fixed. It should be edited for each user. Allowing creators to be added, updated, held, or removed based on visit feedback creates a self-improving loop: the user's taste can change, and creators' content direction or recommendation quality can also change over time.
