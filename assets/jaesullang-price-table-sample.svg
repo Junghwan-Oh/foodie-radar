@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1505" height="895" viewBox="0 0 1505 895" role="img" aria-label="재슐랭 가격대별 추천표 샘플">
+  <rect width="1505" height="895" fill="#20170d"/>
+  <style>
+    .title{font:700 20px "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill:#f0c782}
+    .small{font:400 12px "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill:#d5b47c}
+    .head{font:700 13px "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill:#f3d193}
+    .cell{font:400 12px "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill:#e0bd82}
+    .strong{font:700 12px "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill:#f1d08f}
+    .link{font:700 12px "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill:#3aa0ff}
+    .tag{fill:#4c3b27}
+    .line{stroke:#6b5435; stroke-width:1; opacity:.7}
+  </style>
+  <text x="10" y="27" class="title">표준 가격대별 추천표</text>
+  <line x1="10" y1="38" x2="1495" y2="38" class="line"/>
+  <text x="10" y="66" class="small">Format adopted: 식당별 3줄 추천 + 메뉴별 추천 사유. This section is the current working summary; older tables below are retained as raw/legacy working notes.</text>
+  <text x="10" y="105" class="title">가격무관 Top 10</text>
+  <text x="18" y="143" class="head">순위</text>
+  <text x="62" y="143" class="head">식당</text>
+  <text x="198" y="143" class="head">3줄 추천</text>
+  <text x="676" y="143" class="head">메뉴별 추천 사유</text>
+  <text x="1126" y="143" class="head">가격대</text>
+  <text x="1236" y="143" class="head">위치</text>
+  <text x="1342" y="143" class="head">출처/주의</text>
+  <line x1="10" y1="153" x2="1495" y2="153" class="line"/>
+
+  <g transform="translate(0,0)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">1</text>
+    <text x="61" y="193" class="strong">카키코우죠</text>
+    <text x="198" y="171" class="cell">1) 2026년 3월 월간재슐랭 1위.</text>
+    <text x="198" y="191" class="cell">2) 16만원 코스 후보를 제치고 1만원대 라멘이 1위라 신호가 강함.</text>
+    <text x="198" y="211" class="cell">3) 굴 라멘이라는 장르 차별점과 극강의 가성비가 동시에 있음.</text>
+    <rect x="676" y="169" width="68" height="18" rx="2" class="tag"/><text x="680" y="183" class="strong">카키 라멘</text>
+    <text x="748" y="183" class="cell">: 굴 감칠맛과 농도감을 확인하는 대표 메뉴.</text>
+    <rect x="676" y="193" width="82" height="18" rx="2" class="tag"/><text x="680" y="207" class="strong">카키 시오라멘</text>
+    <text x="762" y="207" class="cell">: 맑고 깔끔한 굴 육수 쪽을 보는 메뉴.</text>
+    <text x="1126" y="193" class="cell">12,000~13,000원</text>
+    <text x="1236" y="193" class="cell">여의도역 근처</text>
+    <text x="1342" y="193" class="link">3월 월간, 단독 Shorts</text>
+  </g>
+
+  <g transform="translate(0,68)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">2</text>
+    <text x="61" y="193" class="strong">진사부우육면</text>
+    <text x="198" y="171" class="cell">1) 2026년 2월 월간재슐랭 1위.</text>
+    <text x="198" y="191" class="cell">2) 고가 코스 후보를 제치고 1만원 우육면이 1위.</text>
+    <text x="198" y="211" class="cell">3) 실패 비용이 낮고, 장르 기본기 검증 후보로 좋음.</text>
+    <rect x="676" y="174" width="48" height="18" rx="2" class="tag"/><text x="680" y="188" class="strong">우육면</text>
+    <text x="728" y="188" class="cell">: 육수, 면, 고기 고명 밸런스를 보는 기본 메뉴.</text>
+    <rect x="676" y="198" width="94" height="18" rx="2" class="tag"/><text x="680" y="212" class="strong">새우완탕우육면</text>
+    <text x="774" y="212" class="cell">: 완탕 식감과 새우 향 확인.</text>
+    <text x="1126" y="193" class="cell">10,000원</text>
+    <text x="1236" y="193" class="cell">청구역 근처</text>
+    <text x="1342" y="193" class="link">2월 월간</text>
+  </g>
+
+  <g transform="translate(0,136)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">3</text>
+    <text x="61" y="193" class="strong">타키타테 카마바</text>
+    <text x="198" y="171" class="cell">1) 2026년 4월 월간재슐랭 1위.</text>
+    <text x="198" y="191" class="cell">2) “비싸지만 매일 먹고싶은 최고의 금태솥밥”이라는 반복 방문 욕구.</text>
+    <text x="198" y="211" class="cell">3) 평상시 식사보다 특별식/보상식 후보로 적합.</text>
+    <rect x="676" y="162" width="158" height="18" rx="2" class="tag"/><text x="680" y="176" class="strong">금태 스미야끼 우니쿠라 카마메시</text>
+    <text x="838" y="176" class="cell">: 이 집의 핵심 후보.</text>
+    <rect x="676" y="186" width="104" height="18" rx="2" class="tag"/><text x="680" y="200" class="strong">우니 비스크소스 파스타</text>
+    <text x="784" y="200" class="cell">: 진한 해산물 감칠맛 확인용.</text>
+    <rect x="676" y="210" width="92" height="18" rx="2" class="tag"/><text x="680" y="224" class="strong">프렌치랙 스미야끼</text>
+    <text x="772" y="224" class="cell">: 숯향과 양고기 육향 확인용.</text>
+    <text x="1126" y="193" class="cell">18,000~69,000원</text>
+    <text x="1236" y="193" class="cell">강남구청역 근처</text>
+    <text x="1342" y="193" class="link">4월 월간, 단독 Shorts</text>
+  </g>
+
+  <g transform="translate(0,204)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">4</text>
+    <text x="61" y="193" class="strong">우주돈</text>
+    <text x="198" y="171" class="cell">1) 단독 제목이 “ㄹㅇ로 10번 넘게 간 돈까스집”.</text>
+    <text x="198" y="191" class="cell">2) 네 기준의 자주 가는 단골 맛집 신호에 강함.</text>
+    <text x="198" y="211" class="cell">3) 돈까스는 한 번 먹으면 퀄리티 판단이 쉬워 검증 효율이 좋음.</text>
+    <rect x="676" y="169" width="54" height="18" rx="2" class="tag"/><text x="680" y="183" class="strong">안심 카츠</text>
+    <text x="734" y="183" class="cell">: 부드러움과 촉촉함 확인용.</text>
+    <rect x="676" y="193" width="44" height="18" rx="2" class="tag"/><text x="680" y="207" class="strong">특등심</text>
+    <text x="724" y="207" class="cell">: 지방, 육향, 씹는 맛 확인용.</text>
+    <text x="1126" y="193" class="cell">4,500~17,000원</text>
+    <text x="1236" y="193" class="cell">방배</text>
+    <text x="1342" y="193" class="link">단독 Shorts</text>
+  </g>
+
+  <g transform="translate(0,272)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">5</text>
+    <text x="61" y="193" class="strong">서보</text>
+    <text x="198" y="171" class="cell">1) 단독 제목이 “잠실가면 여기는 무조건 꼭 가보세요”.</text>
+    <text x="198" y="191" class="cell">2) 석촌호수 모음에도 중복 등장한 반복 신호.</text>
+    <text x="198" y="211" class="cell">3) 잠실권에서 바로 쓸 수 있는 실사용 식사 후보.</text>
+    <rect x="676" y="169" width="56" height="18" rx="2" class="tag"/><text x="680" y="183" class="strong">족발덮밥</text>
+    <text x="736" y="183" class="cell">: 태국식 카오카무 계열, 고기와 밥 조합 확인용.</text>
+    <rect x="676" y="193" width="56" height="18" rx="2" class="tag"/><text x="680" y="207" class="strong">새우국밥</text>
+    <text x="736" y="207" class="cell">: 새우 향과 국물 감칠맛 확인용.</text>
+    <text x="1126" y="193" class="cell">10,000~13,000원</text>
+    <text x="1236" y="193" class="cell">송파나루/잠실</text>
+    <text x="1342" y="193" class="link">단독 Shorts, 석촌호수 모음</text>
+  </g>
+
+  <g transform="translate(0,340)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">6</text>
+    <text x="61" y="193" class="strong">타파코파</text>
+    <text x="198" y="171" class="cell">1) 단독 제목이 “용산 또또또또또간집”.</text>
+    <text x="198" y="191" class="cell">2) 반복 방문 표현이 매우 강한 가벼운 미식 후보.</text>
+    <text x="198" y="211" class="cell">3) 단품은 3만원 이하이나 여러 접시 주문 시 총액은 올라감.</text>
+    <rect x="676" y="162" width="76" height="18" rx="2" class="tag"/><text x="680" y="176" class="strong">안심 타르타르</text>
+    <text x="756" y="176" class="cell">: 첫 주문 후보.</text>
+    <rect x="676" y="186" width="50" height="18" rx="2" class="tag"/><text x="680" y="200" class="strong">갑오징어</text>
+    <text x="730" y="200" class="cell">: 익힘과 소스 조합 확인용.</text>
+    <rect x="676" y="210" width="34" height="18" rx="2" class="tag"/><text x="680" y="224" class="strong">꿀대구</text>
+    <text x="714" y="224" class="cell">: 메인 접시감.</text>
+    <text x="1126" y="193" class="cell">14,000~29,000원</text>
+    <text x="1236" y="193" class="cell">삼각지/용리단길</text>
+    <text x="1342" y="193" class="link">단독 Shorts, 용산 모음</text>
+  </g>
+
+  <g transform="translate(0,408)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">7</text>
+    <text x="61" y="193" class="strong">카나데</text>
+    <text x="198" y="171" class="cell">1) 2026년 4월 월간재슐랭 3위.</text>
+    <text x="198" y="191" class="cell">2) “돈만 있으면 매일 가고 싶은 연남동 일식집” 신호.</text>
+    <text x="198" y="211" class="cell">3) 술집 성격은 있지만 음식 중심으로 접근 가능.</text>
+    <rect x="676" y="162" width="58" height="18" rx="2" class="tag"/><text x="680" y="176" class="strong">신선 사시미</text>
+    <text x="738" y="176" class="cell">: 선도, 구성, 두께 확인용.</text>
+    <rect x="676" y="186" width="84" height="18" rx="2" class="tag"/><text x="680" y="200" class="strong">네기도로 유부마끼</text>
+    <text x="764" y="200" class="cell">: 낮은 가격의 감칠맛 한입 메뉴.</text>
+    <rect x="676" y="210" width="70" height="18" rx="2" class="tag"/><text x="680" y="224" class="strong">수제 멘치카츠</text>
+    <text x="750" y="224" class="cell">: 육즙과 튀김 완성도 확인용.</text>
+    <text x="1126" y="193" class="cell">14,000~42,000원</text>
+    <text x="1236" y="193" class="cell">연남/홍대입구</text>
+    <text x="1342" y="193" class="link">4월 월간, 단독 Shorts</text>
+  </g>
+
+  <g transform="translate(0,476)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">8</text>
+    <text x="61" y="188" class="strong">가양칼국수</text>
+    <text x="61" y="206" class="strong">버섯매운탕</text>
+    <text x="198" y="171" class="cell">1) 2026년 3월 월간재슐랭 3위.</text>
+    <text x="198" y="191" class="cell">2) 단독 추천과 월간 순위가 겹치는 반복 신호.</text>
+    <text x="198" y="211" class="cell">3) 여의도에서 점심/저녁 실사용 후보로 좋음.</text>
+    <rect x="676" y="174" width="128" height="18" rx="2" class="tag"/><text x="680" y="188" class="strong">가양칼국수/버섯매운탕</text>
+    <text x="808" y="188" class="cell">: 버섯, 얼큰한 국물, 칼국수 흐름 확인용.</text>
+    <rect x="676" y="198" width="60" height="18" rx="2" class="tag"/><text x="680" y="212" class="strong">샤브소고기</text>
+    <text x="740" y="212" class="cell">: 여럿이 갈 때 만족도를 올리는 추가 메뉴.</text>
+    <text x="1126" y="193" class="cell">15,000원</text>
+    <text x="1236" y="193" class="cell">여의도/샛강</text>
+    <text x="1342" y="193" class="link">3월 월간, 단독 Shorts</text>
+  </g>
+
+  <g transform="translate(0,544)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">9</text>
+    <text x="61" y="193" class="strong">스시지현</text>
+    <text x="198" y="171" class="cell">1) 단독 제목이 “초밥 좋아하는 사람은 무조건 시청”.</text>
+    <text x="198" y="191" class="cell">2) 오마카세가 아니라 2만원대 모듬초밥이라 진입장벽 낮음.</text>
+    <text x="198" y="211" class="cell">3) 2026년 5월 휴무 이슈가 있어 운영 재확인 필수.</text>
+    <rect x="676" y="174" width="68" height="18" rx="2" class="tag"/><text x="680" y="188" class="strong">모듬초밥 B</text>
+    <text x="748" y="188" class="cell">: 샤리, 네타 선도, 구성 균형 확인용.</text>
+    <rect x="676" y="198" width="68" height="18" rx="2" class="tag"/><text x="680" y="212" class="strong">모듬초밥 C</text>
+    <text x="748" y="212" class="cell">: 첫 방문이면 더 넓은 구성 판단용.</text>
+    <text x="1126" y="193" class="cell">18,000~24,000원</text>
+    <text x="1236" y="193" class="cell">홍대입구/연남</text>
+    <text x="1342" y="193" class="link">단독 Shorts</text>
+  </g>
+
+  <g transform="translate(0,612)">
+    <line x1="10" y1="221" x2="1495" y2="221" class="line"/>
+    <text x="37" y="193" class="cell">10</text>
+    <text x="61" y="188" class="strong">소바하우스</text>
+    <text x="61" y="206" class="strong">멘야준</text>
+    <text x="198" y="171" class="cell">1) 단독 제목이 “살면서 한 번은 먹어봐야하는 라멘”.</text>
+    <text x="198" y="191" class="cell">2) 홍대/연남권 라멘 비교축으로 좋음.</text>
+    <text x="198" y="211" class="cell">3) 단독 일정보다 동선에 붙이면 효율적.</text>
+    <rect x="676" y="186" width="80" height="18" rx="2" class="tag"/><text x="680" y="200" class="strong">특선쇼유라멘</text>
+    <text x="760" y="200" class="cell">: 간장 베이스 육수, 타레, 면, 차슈 완성도 확인용.</text>
+    <text x="1126" y="193" class="cell">16,500원</text>
+    <text x="1236" y="193" class="cell">홍대입구/연남</text>
+    <text x="1342" y="193" class="link">단독 Shorts</text>
+  </g>
+</svg>

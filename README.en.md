@@ -72,6 +72,50 @@ Rules:
 - Course meals and omakase require major course items and dish-level features when available.
 - Separate creator evidence from assistant analysis.
 
+## Sample: Jaesullang Three-Month Price-Tier List
+
+Jaesullang Guide is used here as a sample creator because it is one of the personally trusted food YouTube channels in this workflow.
+
+Example request:
+
+```text
+Summarize Jaesullang's restaurant recommendations from the last three months by price tier.
+Create Top 10 lists for all prices, under 100,000 KRW, under 50,000 KRW, and under 30,000 KRW.
+For each restaurant, include a three-line recommendation, menu-level reasons, price range, location, and sources.
+```
+
+Instead of returning a plain list of titles, `foodie-radar` organizes the result by:
+
+- Monthly ranking placement, repeat mentions, and strong title signals.
+- Restaurant names, prices, locations, and menus extracted from descriptions and hashtags.
+- At least three practical recommendation lines per restaurant.
+- Menu-level reasons for the main order candidates.
+- Course or omakase details, with uncertain entries held or downgraded when course details are missing.
+
+The image below is a sample price-tier table for Jaesullang's recent three-month recommendations.
+
+![Jaesullang price-tier recommendation sample](assets/jaesullang-price-table-sample.svg)
+
+## Food Creator and Influencer List
+
+The current `creator-source-pool.md` starts with a first-pass list of food creators and influencers ranked roughly by public YouTube subscriber counts.
+
+This is not meant to be an absolute trust ranking. It is a starting point.
+
+Users can edit the creator pool based on their own taste.
+
+- First-tier creators to track immediately.
+- Secondary creators for cross-checking.
+- Creators to hold due to sponsorship or advertising risk.
+- Creators to remove because they focus on alcohol, convenience stores, franchises, or categories outside the user's taste.
+- Fine-dining or omakase creators to keep as future wishlist or learning sources.
+
+The preferred creators are those who either share the user's taste or have a more advanced/high-end dining perspective.
+
+Strong signals include personal favorites, regular spots, best-in-category claims, national No. 1 claims, and recommendations that clearly explain why a restaurant is worth visiting.
+
+So the creator list in `foodie-radar` is not a fixed answer. It is an editable radar tuned to each user's taste.
+
 ## YouTube Shorts Handling
 
 Some food creators, especially Shorts-heavy channels, often omit restaurant names from titles.
