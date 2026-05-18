@@ -1,54 +1,94 @@
 # foodie-radar
 
-A Markdown-based restaurant intelligence system for tracking trusted food creators, official guide lists, recommendation signals, sponsorship risk, and personal taste fit.
+`foodie-radar` is a Markdown-based restaurant radar for maintaining high-quality restaurant lists and suggesting visit candidates based on your personal taste.
 
-This is not a generic “find me a restaurant nearby” prompt. It is designed to answer questions like:
+It goes beyond generic “find me a restaurant nearby” search. It tracks trusted food creators, official guides, recommendation signals, sponsorship risk, menu-level reasons, and your evolving taste profile.
 
-- Who directly recommended this restaurant?
-- Is it listed by Michelin, Bib Gourmand, or Blue Ribbon?
-- Is the recommendation sponsored, invited, gifted, or campaign-linked?
-- Does the creator’s taste match mine?
-- Does the recommendation contain strong signals such as “best in category”, “national No. 1”, “life-changing favorite”, “regular spot”, or “craft-level quality”?
-- Are the menu, price, location, and operational details concrete enough to make it a real visit candidate?
+## Problem
 
-## Core Idea
+Restaurant discovery is noisy.
 
-`foodie-radar` separates restaurant recommendations into several auditable layers.
+Map ratings, blog posts, and viral reviews often mix real information with ads and marketing. Following trusted food YouTubers manually also takes time. You may watch a long video only to find that the restaurant is not your style, or that there are too many candidates to turn into an actual visit list.
+
+Shorts and Reels make this worse. Some creators hide the restaurant name in the description or hashtags while using vague clickbait titles.
+
+`foodie-radar` treats restaurant discovery as a personal assistant problem:
+
+- Keep a high-quality restaurant list updated.
+- Separate trusted food creators from expert backup layers.
+- Prioritize recommendations that match your taste.
+- Label or downgrade sponsored/marketing-heavy content.
+- Explain why a restaurant is worth visiting and what to order.
+- Let you ask for lists by cuisine, price, region, creator, or dining style.
+
+## Core Layers
 
 1. Official guide layer
    - Michelin starred/selected restaurants
    - Bib Gourmand
    - Blue Ribbon
 
-2. Food creator and influencer layer
-   - Tracks trusted YouTube, Instagram, blog, newsletter, and map/list sources.
-   - Evaluates recommendation quality, sponsorship risk, and personal taste fit.
+2. Top 30 food creator and influencer layer
+   - The current starter pool is a Top 30 list of food creators/influencers based on public YouTube subscriber counts and channel fit.
+   - It is not an absolute trust ranking. It is a carefully curated starting point.
+   - Creators can be promoted, downgraded, held, or removed based on taste fit, sponsorship risk, and usefulness.
 
-3. Restaurant ledger layer
-   - Normalizes restaurant names, branches, aliases, location, category, menu, price, and source links.
+3. Chef and expert backup layer
+   - Top domestic chefs and expert channels are kept separately from the main food creator ranking.
+   - Use this layer when asking for fine dining, omakase, culinary technique, Chinese cuisine, Japanese cuisine, Italian cuisine, meat, seafood, or premium dining explanations.
 
-4. Personal taste layer
-   - Stores what kind of recommendations you actually value.
-   - Examples: best in category, extreme value with real quality, craft-driven restaurants, personal favorites, repeat-visit spots.
+4. Restaurant ledger layer
+   - Normalizes restaurant names, branches, aliases, locations, categories, menus, prices, and source links.
+   - Branches are not automatically merged when the actual dining experience may differ.
 
-5. Visit queue
+5. Personal taste layer
+   - Stores the signals you personally value.
+   - Examples: best in category, national No. 1, craft-level quality, extreme value with real quality, personal favorites, repeat-visit restaurants.
+
+6. Visit queue
    - Separates immediate candidates, holds, stale entries, and restaurants that need operational verification.
 
-## Why This Exists
+## Why Manage Food Creators Separately?
 
-Generic search is shallow. Blog ads, map ratings, and viral posts rarely explain why a restaurant is actually worth visiting.
+Finding good food creators is hard.
 
-Following a few trusted food creators manually is also hard. Video titles can be clickbait. Shorts may hide the restaurant name. Instagram captions, YouTube descriptions, or hashtags may contain the actual restaurant data.
+Subscriber count alone does not mean a creator matches your taste. Some channels focus on alcohol, convenience stores, franchises, viral hot places, or ad-heavy content. Those may not be useful if your goal is a high-quality personal restaurant list.
 
-This project manages restaurant discovery by:
+`foodie-radar` organizes creators into:
 
-- Maintaining a trusted food creator registry.
-- Tracking each creator’s restaurant recommendations.
-- Labeling sponsorship and advertising risk.
-- Separating creators with similar taste from creators with more advanced or higher-end taste.
-- Writing three practical recommendation lines for every restaurant.
-- Adding menu-level reasons instead of vague praise.
-- Requiring course or omakase restaurants to include major course items and dish-level details when available.
+- First-tier creators to track immediately.
+- Secondary creators for cross-checking.
+- Hold candidates that need trust or taste validation.
+- Removed creators that do not fit the user's taste or purpose.
+- Chef/expert backup channels for fine dining and culinary context.
+
+The creator list is not fixed. It should be edited for each user.
+
+## Example Requests
+
+```text
+Summarize Jaesullang Guide's restaurant recommendations from the last three months by price tier.
+```
+
+```text
+Using my first-tier creators, give me the Top 10 Korean restaurants in Seoul under 50,000 KRW.
+```
+
+```text
+For seafood and raw fish, separate the evidence from trusted seafood creators and recommend only the strongest candidates.
+```
+
+```text
+Recommend the best restaurants in Daejeon using official guides, creator mentions, and my personal taste profile.
+```
+
+```text
+For fine dining, use the chef/expert backup layer and explain why the menu is expensive dish by dish.
+```
+
+```text
+I care about craft quality, best-in-category restaurants, and extreme value with real quality. Re-rank the list with that taste profile.
+```
 
 ## Standard Recommendation Format
 
@@ -59,27 +99,28 @@ Note: Always re-check hours, holidays, reservations, and operating status before
 
 ## Top N by Budget/Condition
 
-| Rank | Restaurant | 3-Line Recommendation | Menu-Level Reasons | Price | Location | Source/Notes |
+| Rank | Restaurant | Three-Line Recommendation | Menu-Level Reasons | Price | Location | Source/Notes |
 |---:|---|---|---|---|---|---|
-| 1 | Restaurant name | 1) Strong recommendation signal. <br>2) Why it fits the user’s taste. <br>3) When or why to visit. | `Menu A`: Why it is the representative order. <br>`Menu B`: What it helps verify. |  |  |  |
+| 1 | Restaurant name | 1) Strong recommendation signal. <br>2) Why it fits the user's taste. <br>3) When or why to visit. | `Menu A`: Why it is the representative order. <br>`Menu B`: What it helps verify. |  |  |  |
 ```
 
 Rules:
 
-- Every listed restaurant needs at least three practical recommendation lines.
+- Every restaurant needs at least three practical recommendation lines.
 - “Good”, “famous”, or “good value” is not enough.
+- Include all meaningful recommendation reasons mentioned in the source video when possible.
 - Every major menu item needs a menu-level reason.
 - Course meals and omakase require major course items and dish-level features when available.
-- Separate creator evidence from assistant analysis.
+- Separate creator evidence from AI-added analysis.
 
-## Sample: Jaesullang Three-Month Price-Tier List
+## Sample: Jaesullang Guide Three-Month Price-Tier List
 
-Jaesullang Guide is used here as a sample creator because it is one of the personally trusted food YouTube channels in this workflow.
+Jaesullang Guide is used here as a sample creator because it is one of the personally trusted food YouTube channels in this workflow. This is only one possible usage pattern. Users can replace the creator, region, cuisine, price range, or ranking logic based on their own taste.
 
 Example request:
 
 ```text
-Summarize Jaesullang's restaurant recommendations from the last three months by price tier.
+Summarize Jaesullang Guide's restaurant recommendations from the last three months by price tier.
 Create Top 10 lists for all prices, under 100,000 KRW, under 50,000 KRW, and under 30,000 KRW.
 For each restaurant, include a three-line recommendation, menu-level reasons, price range, location, and sources.
 ```
@@ -87,7 +128,7 @@ For each restaurant, include a three-line recommendation, menu-level reasons, pr
 The sample table below was generated from a prompt like this:
 
 ```text
-Rebuild Jaesullang's restaurant list from the last three months.
+Rebuild Jaesullang Guide's restaurant list from the last three months.
 
 Conditions:
 1. Top 10 regardless of price
@@ -107,9 +148,10 @@ Each table must include:
 Rules:
 - Do not only write titles. Write at least three practical recommendation lines per restaurant.
 - Avoid shallow phrases like "good", "famous", or "good value" without explanation.
+- Include all recommendation reasons mentioned in the video when possible.
 - Explain why each major menu item is worth ordering.
 - For course meals or omakase, include major course items and dish-level features.
-- Separate Jaesullang evidence from AI-added analysis.
+- Separate Jaesullang Guide evidence from AI-added analysis.
 - For Shorts, do not rely on the title alone. Check descriptions, hashtags, prices, and locations.
 ```
 
@@ -121,29 +163,9 @@ Instead of returning a plain list of titles, `foodie-radar` organizes the result
 - Menu-level reasons for the main order candidates.
 - Course or omakase details, with uncertain entries held or downgraded when course details are missing.
 
-The image below is a sample price-tier table for Jaesullang's recent three-month recommendations.
+The image below is a sample price-tier table for Jaesullang Guide's recent three-month recommendations.
 
-![Jaesullang price-tier recommendation sample](assets/jaesullang-price-table-sample.svg)
-
-## Food Creator and Influencer List
-
-The current `creator-source-pool.md` starts with a first-pass list of food creators and influencers ranked roughly by public YouTube subscriber counts.
-
-This is not meant to be an absolute trust ranking. It is a starting point.
-
-Users can edit the creator pool based on their own taste.
-
-- First-tier creators to track immediately.
-- Secondary creators for cross-checking.
-- Creators to hold due to sponsorship or advertising risk.
-- Creators to remove because they focus on alcohol, convenience stores, franchises, or categories outside the user's taste.
-- Fine-dining or omakase creators to keep as future wishlist or learning sources.
-
-The preferred creators are those who either share the user's taste or have a more advanced/high-end dining perspective.
-
-Strong signals include personal favorites, regular spots, best-in-category claims, national No. 1 claims, and recommendations that clearly explain why a restaurant is worth visiting.
-
-So the creator list in `foodie-radar` is not a fixed answer. It is an editable radar tuned to each user's taste.
+![Jaesullang Guide price-tier recommendation sample](assets/jaesullang-price-table-sample.svg)
 
 ## YouTube Shorts Handling
 
@@ -166,6 +188,8 @@ For Shorts, always inspect:
 .
 ├─ README.md
 ├─ README.en.md
+├─ assets/
+│  └─ jaesullang-price-table-sample.svg
 ├─ skills/
 │  └─ restaurant-trust-intelligence/
 │     └─ SKILL.md
@@ -186,7 +210,7 @@ For Shorts, always inspect:
 ## Usage
 
 1. Use this repository as an Obsidian vault or a GitHub-backed Markdown knowledge base.
-2. Update the files under `restaurant-intelligence/` daily or periodically.
+2. Update the files under `restaurant-intelligence/` periodically.
 3. Register `skills/restaurant-trust-intelligence/SKILL.md` as a Codex skill or adapt it for another AI workflow.
 4. Ask for restaurant recommendations with source evidence, trust level, sponsorship risk, taste fit, and menu-level reasoning.
 
