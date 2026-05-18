@@ -189,6 +189,10 @@ Rules:
 
 Jaesullang Guide is used here as a sample creator because it is one of the personally trusted food YouTube channels in this workflow. This is only one possible usage pattern. Users can replace the creator, region, cuisine, price range, or ranking logic based on their own taste.
 
+This sample uses 21 public YouTube sources from Jaesullang Guide. Their confirmed total runtime is about 17 minutes and 37 seconds. That may sound short, but extracting restaurant names, locations, price ranges, main menus, and actual recommendation reasons by hand still takes real effort.
+
+Even after doing that work manually, the output often ends up as scattered map favorites, calendar notes, or a loose list with little context. It does not clearly preserve why a restaurant is worth visiting, what to order, or how well it fits the user's taste. With this skill, three months or even one year of creator videos can be turned into a clean Markdown restaurant list.
+
 Example request:
 
 ```text
