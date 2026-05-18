@@ -7,7 +7,7 @@ Last updated: 2026-05-18
 | Creator | Lifecycle Status | Official Channels | Primary Regions | Genres | Trust Category | Trust Score | Hotness | Last Audited | Next Review |
 |---|---|---|---|---|---|---|---|---|---|
 | 성시경 / 먹을텐데 | watch | audit needed |  |  | 평가 보류 |  | known |  |  |
-| 서울사는남자 | active | YouTube: https://www.youtube.com/@seoul_namzaa | 서울 | 서울권 실사용 맛집, 지역별 리스트 | 상시 고신뢰 | A | core | 2026-05-18 | 2026-06-18 |
+| 서울 사는 남자 | active | YouTube: https://www.youtube.com/@seoul_namzaa | 서울 | 서울권 실사용 맛집, 지역별 리스트 | 상시 고신뢰 | A | core | 2026-05-18 | 2026-06-18 |
 | 육식맨 | watch | audit needed |  | 고기 | 평가 보류 |  | known |  |  |
 | 잡식맨 | active | YouTube: https://www.youtube.com/channel/UCVILvX9vIp-vMFGmCYJtG3A | 서울/전국/해외 | 잡식, 고기, 대중 맛집, 식문화 | 상시 고신뢰 | A | core | 2026-05-18 | 2026-06-18 |
 | 정육왕 | active | YouTube: https://www.youtube.com/channel/UC1oXmhvYHVI2bApphh3IzuQ / Instagram: https://www.instagram.com/meat.creator/ | 서울/전국/해외 | 고기집, 육류, 원육, 정육 | 상시 고신뢰 | A | core | 2026-05-18 | 2026-06-18 |

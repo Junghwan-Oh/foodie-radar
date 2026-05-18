@@ -21,10 +21,7 @@ Primary creator/influencer classification is maintained separately in `creator-s
 | Creator | Lifecycle Status | Platform | URL/Handle | Scan For | Last Checked | Notes |
 |---|---|---|---|---|---|---|
 | 성시경 / 먹을텐데 | watch | YouTube |  | new restaurant episodes, sponsorship disclosure |  | audit needed |
-| 서울사는남자 | watch | YouTube/Instagram |  | new local restaurant mentions |  | audit needed |
 | 육식맨 | watch | YouTube/Instagram |  | meat restaurant mentions |  | audit needed |
-| 잡식맨 | watch | YouTube/Instagram |  | restaurant mentions |  | audit needed |
-| 정육왕 | watch | YouTube/Instagram |  | meat restaurant mentions |  | audit needed |
 | 지뉼랭가이드 | watch | YouTube/Instagram |  | restaurant videos/lists |  | audit needed |
 | 재슐랭가이드 | watch | YouTube/Instagram | YouTube: https://www.youtube.com/channel/UCzgpOnor-MzT-1iflZil2GQ / Instagram: https://www.instagram.com/food_writer_jw/ | restaurant videos/lists/maps; 3만원 이하 큐 후보; 광고/지원 문구 | 2026-05-18 | YouTube RSS checked; public Instagram detail not confirmed |
 | 잡식맨 | active | YouTube/Instagram | YouTube: https://www.youtube.com/channel/UCVILvX9vIp-vMFGmCYJtG3A | restaurant visits, domestic food trips; filter product reviews | 2026-05-18 | 1군 |

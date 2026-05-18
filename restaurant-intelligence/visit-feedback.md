@@ -19,7 +19,7 @@
 3. 특정 장르의 판단 기준이 바뀌면 `category-analysis.md`를 업데이트합니다.
 4. 추천한 맛집러의 신뢰도가 올라가거나 내려가면 `creator-registry.md`를 업데이트합니다.
 5. 일반 평가 기준 자체가 바뀔 정도의 피드백이면 `trust-rubric.md`를 업데이트합니다.
-6. 비슷한 식당을 올리거나, 보류하거나, 제거해야 하면 `recommendation-queue.md`를 업데이트합니다.
+6. 비슷한 식당을 올리거나, 보류하거나, 제외해야 하면 `recommendation-queue.md`를 업데이트합니다.
 7. 변경한 파일은 `daily-update-log.md`에 기록합니다.
 
 ## 후기 템플릿
