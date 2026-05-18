@@ -171,8 +171,8 @@
 
 상세 Markdown 버전은 아래에서 볼 수 있습니다.
 
-- [재슐랭가이드 최근 3개월 가격대별 맛집 리스트 샘플](examples/jaesullang-guide-3mo-price-tier-sample.en.md)
-- [잡식맨 최근 3개월 가격대별 맛집 리스트 샘플](examples/jobxicman-3mo-price-tier-sample.en.md)
+- [재슐랭가이드 최근 3개월 가격대별 맛집 리스트 샘플](examples/jaesullang-guide-3mo-price-tier-sample.ko.md)
+- [잡식맨 최근 3개월 가격대별 맛집 리스트 샘플](examples/jobxicman-3mo-price-tier-sample.ko.md)
 
 아래 이미지는 재슐랭가이드 최근 3개월 추천 식당을 가격무관 Top 10으로 정리한 샘플입니다.
 
