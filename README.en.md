@@ -66,28 +66,65 @@ The creator list is not fixed. It should be edited for each user.
 
 ## Example Requests
 
+### Official Guide-Based
+
+```text
+List the 2025 Seoul Michelin starred/selected restaurants and Bib Gourmand restaurants separately.
+For each restaurant, include cuisine, location, price range, reservation difficulty, and personal taste fit.
+```
+
+```text
+From Seoul Blue Ribbon restaurants, shortlist realistic options under 50,000 KRW.
+Mark restaurants that overlap with Michelin or Bib Gourmand.
+```
+
+### Creator-Based
+
 ```text
 Summarize Jaesullang Guide's restaurant recommendations from the last three months by price tier.
+Create Top 10 lists for all prices, under 100,000 KRW, under 50,000 KRW, and under 30,000 KRW.
+For each restaurant, include a three-line recommendation, menu-level reasons, price range, location, and sources.
 ```
 
 ```text
-Using my first-tier creators, give me the Top 10 Korean restaurants in Seoul under 50,000 KRW.
+List Seoul restaurants covered by Yooxicman within the last year.
+Classify them into meat restaurants, burgers/sandwiches, and other restaurants.
+For each restaurant, summarize the recommendation reason and representative menu.
 ```
 
 ```text
-For seafood and raw fish, separate the evidence from trusted seafood creators and recommend only the strongest candidates.
+From Jobxicman videos, extract only restaurants with signals such as "national No. 1", "best in category", or "top waiting-list".
+Re-rank them using my preference for craft quality, extreme value, and category-peak restaurants.
+```
+
+### Cross-Creator Validation
+
+```text
+Find restaurants commonly mentioned by creators A, B, and C.
+For each overlapping restaurant, separate each creator's recommendation reason, main menu, price range, location, and sponsorship risk.
+Move restaurants strongly recommended by only one creator into a separate candidate section.
 ```
 
 ```text
-Recommend the best restaurants in Daejeon using official guides, creator mentions, and my personal taste profile.
+Find Seoul restaurants that overlap or are comparable across Jaesullang Guide, Jobxicman, and Kim Employee Meals.
+Treat exact overlaps as higher-confidence candidates and genre-level overlaps as comparison candidates.
+```
+
+### Category, Region, and Taste-Based
+
+```text
+For seafood and raw fish, recommend only the strongest domestic candidates.
+Separate evidence from trusted seafood creators and mark official guide recognition when available.
+```
+
+```text
+Recommend the best restaurant candidates in Daejeon using official guides, creator mentions, and my personal taste profile.
+Prioritize best-in-category, craft quality, and extreme value signals.
 ```
 
 ```text
 For fine dining, use the chef/expert backup layer and explain why the menu is expensive dish by dish.
-```
-
-```text
-I care about craft quality, best-in-category restaurants, and extreme value with real quality. Re-rank the list with that taste profile.
+For course meals, include major course items and dish-level features; if details are missing, mark the restaurant as hold.
 ```
 
 ## Standard Recommendation Format
