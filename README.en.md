@@ -84,6 +84,35 @@ Create Top 10 lists for all prices, under 100,000 KRW, under 50,000 KRW, and und
 For each restaurant, include a three-line recommendation, menu-level reasons, price range, location, and sources.
 ```
 
+The sample table below was generated from a prompt like this:
+
+```text
+Rebuild Jaesullang's restaurant list from the last three months.
+
+Conditions:
+1. Top 10 regardless of price
+2. Top 10 under 100,000 KRW
+3. Top 10 under 50,000 KRW
+4. Top 10 under 30,000 KRW
+
+Each table must include:
+- Rank
+- Restaurant
+- Three-line recommendation
+- Menu-level reasons
+- Price range
+- Location
+- Source/notes
+
+Rules:
+- Do not only write titles. Write at least three practical recommendation lines per restaurant.
+- Avoid shallow phrases like "good", "famous", or "good value" without explanation.
+- Explain why each major menu item is worth ordering.
+- For course meals or omakase, include major course items and dish-level features.
+- Separate Jaesullang evidence from AI-added analysis.
+- For Shorts, do not rely on the title alone. Check descriptions, hashtags, prices, and locations.
+```
+
 Instead of returning a plain list of titles, `foodie-radar` organizes the result by:
 
 - Monthly ranking placement, repeat mentions, and strong title signals.
