@@ -32,3 +32,5 @@ Analyze the existing restaurant ledger by category so future recommendations mat
 ## Category Notes
 
 Add short category-level judgments here, for example "sushi: user interest confirmed, prioritize operational checks and reservation difficulty."
+
+- Pizza: user has a strong positive signal for Jobxicman's category-best pizza recommendations, especially domestic top-tier / world-recognized / craft-quality places. Maintain the working list in `category-pizza.md`.
